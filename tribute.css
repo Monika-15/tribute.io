@@ -1,0 +1,107 @@
+/* Reset some default browser styles */
+body, h1, h2, ul, li {
+  margin: 0;
+  padding: 0;
+}
+p {
+  margin-bottom: iem;
+}
+/* Set a background color and text color for the entire page */
+body {
+  background-color: #f2f2f2;
+  color: #333;
+  font-family: Arial, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+.muniba-image {
+  float: right; /* Float the image to the right */
+  margin-left: 20px; /* Add some margin for spacing */
+}
+
+/* Style the navigation menu */
+nav ul {
+  list-style-type: none;
+  background-color: #333;
+  text-align: center;
+  padding: 10px;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Style links in the navigation menu */
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Style section headers */
+h2 {
+  color: #333;
+  padding: 10px;
+}
+
+/* Style the main content sections */
+section {
+  padding: 20px;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Style hyperlinks within sections */
+.blue-text {
+  color: #007bff;
+}
+
+/* Style the footer */
+footer {
+  text-align: center;
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+/* Responsive design for smaller screens */
+@media screen and (max-width: 768px) {
+  nav ul {
+      text-align: left;
+  }
+
+  nav ul li {
+      display: block;
+      margin-bottom: 10px;
+  }
+
+  header h1 {
+      font-size: 24px;
+  }
+
+  section {
+      margin: 5px;
+      padding: 10px;
+  }
+}
+
+.blue-text {
+    color: blue;
+  }
+
+  .social-media a {
+    margin-right: 10px; /* Adjust the value to control the spacing */
+}
+  
+
